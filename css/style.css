@@ -68,15 +68,25 @@ img {
     padding: 94px 0;
 }
 
-header {
+
+/* Header */
+.header {
     border-bottom: 1px solid #ECECEC;
 }
 
-.main-nav {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .logo {
     color: var(--secondary-text-color);
