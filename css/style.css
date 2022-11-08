@@ -520,8 +520,21 @@ img {
 /* footer */
 .footer {
     background-color: var(--section-fon-color);
-    margin: 0;
     padding: 60px 0px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.footer-adress {
+    margin-right: 70px;
 }
 
 .logo-footer {
@@ -578,14 +591,9 @@ img {
     color: var(--accent-color);
 }
 
-.footer-container {
-    display: flex;
-    align-items: baseline;
-} 
 
-.container-adress {
-    margin-right: 70px;
-}
+
+
 
 .social-footer {
     margin-right: auto;
