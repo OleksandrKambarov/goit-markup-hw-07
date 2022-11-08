@@ -72,6 +72,11 @@ img {
 /* Header */
 .header {
     border-bottom: 1px solid #ECECEC;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header__container {
@@ -208,6 +213,12 @@ img {
 
 .hero-container {
     padding: 200px 0;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .hero-title{
@@ -257,9 +268,19 @@ img {
 }
 
 /* features */
-.features-title {
+.features {
+    padding: 94px 0;
+    padding-bottom: 0;
+
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features__title {
     margin-bottom: 10px;
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -267,31 +288,25 @@ img {
     text-transform: uppercase;
     }
 
-.benefits {
-    padding-bottom: 0;
-}
-
-.features {
+.features__item {
     max-width: 270px;   
 }
 
-.section-features {
+.features__menu {
     display: flex;
-    
-    }
-
-.section-features .features:not(:last-child) {
-    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-.text {
+.features__text {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
-.features-list {
+.features__list {
     display: flex;
     align-items: center;
     justify-content: center;
