@@ -399,17 +399,14 @@ img {
 .team__menu {
     display: flex;
     border: 1px;
+    gap: 30px;
 }
 
-.team__menu  .team-image + .team-image {
-    margin-left: 30px;
-}
-
-.card {
+.team__card {
     padding: 30px;
 }
 
-.title {
+.team__label {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -418,7 +415,7 @@ img {
     letter-spacing: 0.03em;
 }
 
-.subtitle {
+.team__subtitle {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.187;
@@ -426,7 +423,7 @@ img {
     margin-bottom: 16px;
 }
 
-.team-image {
+.team__image {
     background-color: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
