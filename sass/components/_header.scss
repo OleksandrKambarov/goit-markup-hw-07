@@ -72,8 +72,10 @@
     margin-left: 93px;
 }
 
-.header__item:not(:last-child) {
+.header__item {
+    &:not(:last-child) {
     margin-right: 50px;
+}
 }
 
 .contacts {
@@ -88,8 +90,10 @@
     margin-left: auto;
 }
 
-.contacts__item:not(:last-child) {
+.contacts__item {
+    &:not(:last-child) {
     margin-right: 50px;
+}
 }
 
 .contacts__link {
