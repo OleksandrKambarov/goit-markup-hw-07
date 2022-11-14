@@ -187,11 +187,19 @@ img {
   margin-right: 70px;
 }
 
-.logo--painted {
+.footer__logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
-.logo__text--shifted {
+.footer__text {
+  display: inline-block;
+  color: var(--accent-color);
   margin-bottom: 20px;
 }
 
